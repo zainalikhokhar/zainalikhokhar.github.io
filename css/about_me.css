@@ -363,9 +363,11 @@ body{
     margin-top: 30px;
     /* position: fixed; */
     bottom: 0;
+    overflow: auto;
+    justify-content: center;
     
 }
-.footer span{
+.footer div, .footer span{
     color:  rgb(155, 155, 155)!important;
 }
 
@@ -404,6 +406,9 @@ body{
 .resumeBox{
     
     width: 48%;
+}
+#projectBox{
+    width: 100%;
 }
 .resumeBoxHeading{
     font-size: 22px;
@@ -495,9 +500,40 @@ body{
   .python {width: 90%; background-color:#007bff;} /* Blue */
   .VB {width: 80%; background-color:#007bff;} /* Red */
   .HTML {width: 90%; background-color:#007bff;} /* Dark Grey */
-  .CSS {width: 70%; background-color:#007bff;} /* Red */
-  .js {width: 50%; background-color:#007bff;} /* Red */
+  .CSS {width: 80%; background-color:#007bff;} /* Red */
+  .js {width: 55%; background-color:#007bff;} /* Red */
+  .MATLAB {width: 65%; background-color:#007bff;} /* Red */
 
+  .viewProjectButton, .downloadResumeButton{
+    display: flex;
+    
+    justify-content: center;
+    
+  }
+  .viewProjectButton button , .downloadResumeButton button{
+    padding: 8px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: rgb(55, 55, 55);
+    font-weight: 0px;
+    border: 1px solid #007bff;
+    box-shadow: 00px 5px 5px black;
+    
+
+}
+
+.viewProjectButton button:hover, .downloadResumeButton button:hover{
+    background-color:  #007bff;
+}
+
+.downloadResumeButton{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.downloadResumeButton button{
+    font-size: 20px;
+}
 @media screen and (max-width:950px){
 
     #introBox{
@@ -551,7 +587,15 @@ body{
     }
 
 }
-
+@media screen and (max-width:892px) {
+    .footer span{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media  screen and (max-width:750px) {
 
     .whatIDoBoxes{
