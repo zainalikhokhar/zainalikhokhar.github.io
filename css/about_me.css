@@ -496,13 +496,13 @@ body{
   
   }
   
-  .cLang {width: 85%; background-color:#007bff ;} /* Green */
-  .python {width: 90%; background-color:#007bff;} /* Blue */
-  .VB {width: 80%; background-color:#007bff;} /* Red */
-  .HTML {width: 90%; background-color:#007bff;} /* Dark Grey */
-  .CSS {width: 80%; background-color:#007bff;} /* Red */
-  .js {width: 55%; background-color:#007bff;} /* Red */
-  .MATLAB {width: 65%; background-color:#007bff;} /* Red */
+  .cLang {width: 85%; background-color:#007bff ;} 
+  .python {width: 90%; background-color:#007bff;} 
+  .VB {width: 80%; background-color:#007bff;}
+  .HTML {width: 90%; background-color:#007bff;} 
+  .CSS {width: 80%; background-color:#007bff;} 
+  .js {width: 55%; background-color:#007bff;} 
+  .MATLAB {width: 65%; background-color:#007bff;} 
 
   .viewProjectButton, .downloadResumeButton{
     display: flex;
