@@ -642,3 +642,13 @@ body{
 
 
 
+.externalLinks{
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    color:rgb(231, 227, 227);
+}
+
+.externalLinks:hover{
+    text-decoration: underline !important;
+    color:rgb(231, 227, 227);
+}
